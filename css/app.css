@@ -1,0 +1,433 @@
+/* Eric Meyer's Reset Reloaded *//* http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend, caption {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;background: transparent;}body {line-height: 1;}table {border-collapse: collapse;border-spacing: 0;}
+
+/* =Clearfix (all browsers)--------------------------------*/
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}/* IE6 */ * html .clearfix {height: 1%;}/* IE7 */*:first-child+html .clearfix {min-height: 1px;}
+
+html, body, * { font-family: "Lucida Sans", Arial, Helvetica; }
+
+#container {
+	width: 710px;
+	margin: 0 auto;
+	background: url(../images/appbg.jpg) #ffffff no-repeat top center;
+}
+#header {
+	width: 710px;
+	height: 160px;
+	padding: 0 5px 0px 15px;
+}
+#applogo {
+	display: block;
+	height:50px;
+}
+#appmenu{
+	background: url(../images/categorias/menu-medio.jpg) repeat-x top left;
+	font-size: 11px;
+	line-height: 27px;
+	margin:5px 0 0 0;
+}
+#appmenu ul{
+	padding:0px;
+	list-style:none;
+}
+#appmenu ul li{
+	display:inline;
+}
+#appmenu ul li a{
+	padding:3px 10px;
+	text-decoration: none;
+}
+#appmenu ul li a{ color:#e0e0e0; }
+#appmenu ul li a:hover{ color:#FFFFFF; }
+#appmenu_der { 
+	background: url(../images/categorias/menu-der.jpg) no-repeat top right;
+	width: 22px;
+	height: 27px;
+	float: right;
+	margin-top: -27px
+}
+#body {
+	min-height: 710px;
+	padding: 0px 5px;
+}
+.socialshare {
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+}
+#appbody{
+	width: 615px;
+	margin: auto
+}
+#appcatalogo {
+    background: none repeat scroll 0 0 #F0F0F0;
+    margin: 5px 0 0;
+    padding: 0px 3px 4px 3px;
+}
+
+#appcat{
+	width: 113px;
+	font-size: 11px;
+	margin: 7px 4px 7px 4px;
+	float:left;
+}
+#appcat_header{
+	background: url(../images/categorias/up-medio.jpg) repeat-x top left;
+	line-height: 18px;
+	color: white;
+	width: 113px;
+	clear: both;
+	font-size: 10px;
+}
+#appcat_headerlft{
+	background: url(../images/categorias/up-izq.jpg) no-repeat top left;
+	line-height: 18px;
+	padding: 0 3px;
+	float: left;
+}
+#appcat_headertxt{
+	width: 78px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	
+}
+#appcat_headerder{
+	background: url(../images/categorias/up-der.jpg) no-repeat top right;
+	line-height: 18px;
+	padding: 0 20px 0 0;
+	float: right;
+	margin-top: -18px
+}
+#appcat_top{
+	background: url(../images/categorias/cuadroblanco-arriba.jpg) no-repeat;
+	height: 5px;
+	width: 113px;
+}
+#appcat_body{
+	background: url(../images/categorias/cuadroblanco-medio.jpg) repeat-y;
+	width: 105px;
+	padding: 2px 5px 0px 5px;
+	text-align: center
+}
+#appcat_footer{
+	background: url(../images/categorias/cuadroblanco-abajo.jpg) no-repeat;
+	height: 20px;
+	width: 100px;
+	padding: 2px 8px 0px 8px;
+	text-align: right
+}
+#appcat_footer a{
+	color: #DD0000;
+	text-decoration: none;
+}
+
+#appslider{
+	width: 615px;
+	height: 193px;
+	background-color: black;
+}
+#appslider ul{
+	list-style: none;
+}
+#appslider ul li{
+	display: inline;
+}
+#appbotmenu { 
+	width: 710px;
+	text-align: center
+}
+#appbotmenu a{
+	margin: 0 -11px 0 0;
+}
+
+#navigation {
+	margin-top: 8px;
+	width: 710px;
+	height: 40px;
+	text-align: center;
+	font-size: 11px;
+}
+
+#navigation ul {
+	list-style: none;
+	width: 400px;
+	margin: 0 auto
+}
+#navigation ul li{
+	display: inline;
+}
+#navigation ul li a{
+	background-color: #f0f0f0;
+	color: black;
+	text-decoration: none;
+	padding: 2px 8px
+}
+#navigation ul li a:hover{
+	background-color: #FF0000;
+	color: white;
+}
+#comments{ width: 710px; }
+.navselected{
+	background-color: #FF0000 !important;
+	color: white !important;
+}
+
+#messages{
+	position: absolute;
+	top: 180px;
+	width: 450px;
+	padding: 30px 0px;
+	left: 50%;
+	margin-left: -225px;
+	font-size: 10px;
+	background-color: #FFFFAA;
+	border: 2px solid #EEEECC;
+	color: maroon;
+	text-align: center;
+	font-weight: bold;
+	z-index: 999;
+	
+}
+
+/************************************************************************
+FICHA DEL PRODUCTO
+************************************************************************/
+#proddet_title{
+	background-image: url(../images/categorias/producto-medio.jpg);
+	background-repeat: repeat-x;
+	background-position: top left;
+	line-height: 43px;
+	height: 43px;
+	width: 450px;
+	color: white;
+	font-weight: bold;
+	padding: 0px 0px 0px 5px
+}
+#proddet_body{
+	font-size: 11px;
+	width: 450px;
+	text-align: justify
+}
+#proddet_subtitle{
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 25px;
+	background-color:#FF0000; 
+	width:450px;
+	color: white;
+	padding: 0 0 0 5px;
+	
+}
+#proddet_form{
+	font-size: 11px;
+	width: 450px;
+}
+#proddet_form input,#proddet_form textarea{
+	border: 1px #D0D0D0 solid;
+	background-color: #e0e0e0;
+	font-size: 11px;
+	color: #909090
+}
+#sharesocial{
+	float: right;
+	width: 300px;
+	margin-top: 10px;
+}
+
+#pagecontent{
+	margin-top: 80pxpx;
+	font-size: 11px;
+	color: #b0b0b0
+}
+#pagecontent_logo{
+	margin: 0px 0 30px 0
+}
+#pagecontent_text{
+	padding-left: 6px;
+}
+#pagecontent_text h3{
+	font-size: 14px;
+	border-bottom: 1px solid #b0b0b0;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 10px
+}
+#pagecontent_text p{ 
+	margin-bottom: 10px;
+	text-align: justify
+}
+/************************************************************************
+TOOLTIP
+************************************************************************/
+#tooltip {
+    position:absolute;
+    z-index:9999;
+    color:#fff;
+    font-size:12px;
+    width:230px;   
+}
+ 
+/* IE hack */
+*html #tooltip .tipHeader {margin-bottom:-6px;}
+ 
+#tooltip .tipBody {
+    background-color:#000;
+    padding:15px 15px 15px 25px;
+}
+ 
+#footer{
+	background: url(../images/doblezpapel.png) no-repeat top center;
+	width: 710px;
+	height: 75px;
+	margin-top: -22px;
+	position: relative;
+	z-index: 150;
+}
+
+/************************************************************************
+POSICIONES
+************************************************************************/
+.kwicks {  
+    list-style: none;  
+    position: relative;  
+    margin: 0;  
+    padding: 0;  
+}  
+.kwicks li{  
+    display: block;  
+    overflow: hidden;  
+    padding: 0;  
+    cursor: pointer;  
+	width: 225px;  
+	height: 397px;
+}
+.kwicks li a { text-decoration:none; padding:375px 280px; }
+
+#kwick1 {   
+    background-color: #53b388;  
+    background-image: url('../images/portada-adealessi.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}  
+#kwick2 {  
+    background-color: #5a69a9;  
+    background-image: url('../images/portada-alessi.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}  
+#kwick3 {  
+    background-color: #c26468;  
+    background-image: url('../images/portada-officinaalessi.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#homelogo{
+	width:300px;
+	margin:0 auto;
+	text-align:center;
+	
+}
+#hometitle{
+	width:300px;
+	margin:0 auto;
+	text-align:center;
+	
+}
+/************************************************************************
+Slider
+************************************************************************/
+/*--Main Container--*/
+.main_view {
+	float: left;
+	position: relative;
+	font-size: 10px
+}
+/*--Window/Masking Styles--*/
+.window {
+	height:193px;	
+	width: 615px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+.image_reel img {float: left;}
+
+/*--Paging Styles--*/
+.paging {
+	position: absolute;
+	bottom: 165px; right: -7px;
+	width: 100px; height:26px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 20px;
+	background: url('../images/paging_bg2.png');
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+.paging a {
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+.paging a.active {
+	font-weight: bold;
+	background: #920000;
+	border: 1px solid #610000;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.paging a:hover {font-weight: bold;}
+
+/************************************************************************
+Slider PRODUCTO
+************************************************************************/
+/*--Main Container--*/
+.prodmain_view {
+	float: left;
+	position: relative;
+	font-size: 10px
+}
+/*--Window/Masking Styles--*/
+.prodwindow {
+	height:242px;	width: 242px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+.prodimage_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+.prodimage_reel img {float: left;}
+
+/*--Paging Styles--*/
+.prodpaging {
+	margin-top: 20px;
+	width: 170px; height:25px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 25px;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+.prodpaging img {
+	border: 4px solid #d0d0d0;
+}
+.prodpaging a {
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+.prodpaging a.prodactive {
+	font-weight: bold;
+	background: #920000;
+	border: 1px solid #610000;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 3px;
+}
+.prodpaging a:hover {font-weight: bold;}
